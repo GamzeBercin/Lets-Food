@@ -117,6 +117,7 @@ ul li a:hover {
 .popular-menu {
   text-align: center;
   margin-top: 75px;
+  background: rgba(255, 255, 255, 1);
 }
 .service h5,
 .popular-menu h5 {
@@ -166,21 +167,30 @@ ul li a:hover {
 .card-popular p {
   font-size: 18px;
   margin-top: 5px;
-  margin-bottom: 49px;
+  margin-bottom: 13px;
 }
 .card-popular .card-information {
   background: #ffffff;
+  border-radius: 10px;
 }
 .card-popular .card-header {
   background: #ffffff;
+}
+.card-popular .card-footer p {
+  margin-bottom: 13px;
+  font-size: 22px;
+  margin-left: 22px;
+  font-weight: 500;
+}
+.card-popular .card-footer svg {
+  margin-right: 22px;
+  margin-bottom: 13px;
 }
 .card-popular .card-footer {
   display: flex;
   justify-content: space-between;
   background: #ffffff;
   border-radius: 10px;
-  margin-bottom: 13px;
-  margin-top: 13px;
 }
 .card-popular img {
   padding: 15px 25px 30px 25px;
@@ -188,9 +198,11 @@ ul li a:hover {
 .card-popular .card-header h2 {
   font-size: 20px;
   text-align: center;
+  font-weight: 500;
 }
 .card-header p {
   font-size: 15px;
+  margin-top: 5px;
 }
 .cards {
   gap: 25px;
