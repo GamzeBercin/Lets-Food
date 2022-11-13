@@ -121,17 +121,20 @@ ul li a:hover {
   background: rgba(255, 255, 255, 1);
 }
 .service h5,
-.popular-menu h5 {
+.popular-menu h5,
+.div-text h5 {
   color: #ffcb45;
   font-weight: 500;
   font-size: 20px;
 }
 .service h1,
-.popular-menu h1 {
+.popular-menu h1,
+.div-text h1 {
   color: #1d1d1d;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
+  margin-top: 9px;
 }
 .service > p,
 .popular-menu > p {
@@ -210,4 +213,33 @@ ul li a:hover {
 }
 .cards {
   gap: 25px;
+}
+.testimonial {
+  display: flex;
+}
+.testimonial .group-img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-left: 170px;
+  margin-bottom: 80px;
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 10px 10px 0px 0px;
+}
+.testimonial .group-img .group-img-2 {
+  margin-top: 14px;
+  display: flex;
+  gap: 17px;
+}
+.testimonial .group-img .group-img-2 #img-2 {
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 0px 0px 10px 0px;
+}
+.testimonial .group-img .group-img-2 #img-3 {
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 0px 0px 0px 10px;
+}
+.div-row {
+  margin-top: 66px;
+  margin-left: 101px;
 }
