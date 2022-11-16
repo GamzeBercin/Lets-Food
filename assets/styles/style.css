@@ -248,7 +248,7 @@ ul li a:hover {
   border-radius: 10px;
   padding: 28px 20px 28px 20px;
   margin-top: 32px;
-  max-width: 452px;
+  max-width: 500px;
 }
 .testimonial-card .testimonial-card-header {
   display: flex;
@@ -276,6 +276,6 @@ ul li a:hover {
   color: rgba(29, 29, 29, 0.7);
 }
 .swiper {
-  width: 600px;
+  max-width: 600px;
   height: 300px;
 }
