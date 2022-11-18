@@ -384,6 +384,7 @@ footer .copyright {
     flex-direction: column;
   }
   .testimonial .group-img,
+  
   .call-to-action {
     margin-left: 60px;
     gap: 10px;
@@ -395,19 +396,26 @@ footer .copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
   }
   .more-menu-button {
     max-width: 200px;
   }
   footer .footer-content {
-    gap: 70px;
+    gap: 50px;
+   
+  
   }
-  .banner-text {
-    margin-top: 500px;
+  footer,
+  .testimonial,
+  .div-row {
+    margin-top: 10px;
+  }
+,
   }
   .about-us .banner {
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    background-position: top;
-    justify-content: end;
+    background-image: none;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
