@@ -384,7 +384,6 @@ footer .copyright {
     flex-direction: column;
   }
   .testimonial .group-img,
-  
   .call-to-action {
     margin-left: 60px;
     gap: 10px;
@@ -403,19 +402,15 @@ footer .copyright {
   }
   footer .footer-content {
     gap: 50px;
-   
-  
   }
   footer,
   .testimonial,
   .div-row {
     margin-top: 10px;
   }
-,
-  }
-  .about-us .banner {
-    background-image: none;
-    padding-left: 60px;
-    padding-right: 60px;
-  }
+}
+.about-us .banner {
+  background-image: none;
+  padding-left: 60px;
+  padding-right: 60px;
 }
