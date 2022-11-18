@@ -370,3 +370,44 @@ footer .copyright {
 
   color: #1d1d1d;
 }
+
+/* For Mobile */
+
+@media (max-width: 768px) {
+  header {
+    display: none;
+  }
+  footer .footer-content,
+  .social-media-icons,
+  .testimonial,
+  .group-img-2 {
+    flex-direction: column;
+  }
+  .testimonial .group-img,
+  .call-to-action {
+    margin-left: 60px;
+    gap: 10px;
+  }
+  .popular-menu,
+  .cards,
+  .service,
+  .service-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .more-menu-button {
+    max-width: 200px;
+  }
+  footer .footer-content {
+    gap: 70px;
+  }
+  .banner-text {
+    margin-top: 500px;
+  }
+  .about-us .banner {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-position: top;
+    justify-content: end;
+  }
+}
