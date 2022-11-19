@@ -74,7 +74,7 @@ body {
   justify-content: left;
   align-items: center;
   gap: 30px;
-  background-image: url(../assets/img/img-hero.png);
+  background-image: url(../img/img-hero.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
