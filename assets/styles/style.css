@@ -401,9 +401,17 @@ footer .copyright {
 
 /* For Mobile */
 
+.mobile-nav {
+  display: none;
+}
+
 @media (max-width: 768px) {
   header {
     display: none;
+  }
+
+  .mobile-nav {
+    display: block;
   }
 
   nav {
@@ -437,7 +445,7 @@ footer .copyright {
     border: solid #1d1d1d 2px;
     background-color: #faa41a;
   }
-  #menuToggle {
+  #menu-toggle {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -448,7 +456,7 @@ footer .copyright {
     user-select: none;
   }
 
-  #menuToggle input {
+  #menu-toggle input {
     display: flex;
     width: 40px;
     height: 32px;
@@ -458,7 +466,7 @@ footer .copyright {
     z-index: 2;
   }
 
-  #menuToggle span {
+  #menu-toggle span {
     display: flex;
     width: 29px;
     height: 2px;
@@ -472,25 +480,25 @@ footer .copyright {
       background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
 
-  #menuToggle span:first-child {
+  #menu-toggle span:first-child {
     transform-origin: 0% 0%;
   }
 
-  #menuToggle span:nth-last-child(2) {
+  #menu-toggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
 
-  #menuToggle input:checked ~ span {
+  #menu-toggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-3px, -1px);
     background: #36383f;
   }
-  #menuToggle input:checked ~ span:nth-last-child(3) {
+  #menu-toggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
 
-  #menuToggle input:checked ~ span:nth-last-child(2) {
+  #menu-toggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
 
@@ -534,7 +542,7 @@ footer .copyright {
     list-style-type: none;
   }
 
-  #menuToggle input:checked ~ ul {
+  #menu-toggle input:checked ~ ul {
     transform: none;
   }
 
