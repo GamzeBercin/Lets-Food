@@ -200,9 +200,10 @@ ul li a:hover {
 .card-popular .card-footer svg {
   margin-right: 22px;
   margin-bottom: 13px;
-  transition: all 3s;
+  transition: all 0.5s;
+  cursor: pointer;
 }
-.card-popular .card-footer svg:hover path {
+.card-popular .card-footer svg:hover {
   fill: #faa41a;
 }
 
